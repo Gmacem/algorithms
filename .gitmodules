@@ -1,0 +1,3 @@
+[submodule "amalgamate"]
+	path = amalgamate
+	url = https://github.com/shrpnsld/amalgamate
