@@ -1,0 +1,3 @@
+[submodule "Amalgamate"]
+	path = Amalgamate
+	url = https://github.com/rindeal/Amalgamate

@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.12)
 project (algorithms)
 
-file(GLOB SOURCES "structures/*.cpp")
-add_library(native-lib SHARED ${SOURCES})
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+add_definitions( -DNDEBUG=1 )
+add_subdirectory(apps)
+add_subdirectory(src)
