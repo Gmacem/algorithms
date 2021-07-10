@@ -4,6 +4,5 @@ project (algorithms)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_definitions( -DNDEBUG=1 )
 add_subdirectory(apps)
 add_subdirectory(src)
